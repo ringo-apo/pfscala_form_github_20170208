@@ -1,0 +1,17 @@
+@(message: String)
+
+@main("test") {
+
+    @message<br>
+
+    <text>３つの数値を入力して「送信」を押してください。</text><br>
+    <form action="/kekka" method="get">
+     <input type="text" name="text1"> +
+     <input type="text" name="text2"> +
+     <input type="text" name="text3">
+     <input type="submit">
+    </form>
+
+
+
+}
